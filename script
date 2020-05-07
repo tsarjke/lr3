@@ -1,0 +1,7 @@
+#!/bin/bash
+
+» num.txt
+gcc lr3.c -o lr3
+./lr3
+unoconv -f pdf bill.txt
+rm lr3 bill.txt
